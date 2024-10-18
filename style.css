@@ -1,6 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/harmonia-free');
 body{
-    height: 200vh;
     z-index: 0;
     background-color: #FEF9F2;
 }
@@ -125,6 +124,7 @@ li svg{
 
 .item4 img{
     width: 80vw;
+    border-radius: 10px;
 }
 
 .item4 span{
@@ -187,6 +187,7 @@ li svg{
     align-self: end; /* Moves the span to the bottom */
     text-align: center;
     font-size: xx-large;
+    box-shadow: 0px 5px 10px rgb(212, 208, 192);
 }
 
 footer{
