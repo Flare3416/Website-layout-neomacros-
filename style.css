@@ -1,0 +1,229 @@
+@import url('https://fonts.cdnfonts.com/css/harmonia-free');
+body{
+    height: 200vh;
+    z-index: 0;
+    background-color: #FEF9F2;
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    transition: all 0.2s;
+}
+.container{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item1{
+    width: 100vw;
+    height: 4vh;
+    background-color: black;
+    border:2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Harmonia FREE', sans-serif;
+    font-size:x-large;
+    font-weight: 500;
+}
+
+.item1 a {
+    color:azure;
+    text-decoration: none; 
+}
+
+.item1 a:hover {
+    text-decoration: underline; 
+}
+
+.item2{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #FEF9F2;
+}
+
+.item2 img{
+    position: absolute;
+    width: 20%;
+    cursor: pointer;
+}
+
+.search{
+    width: 18px;
+    margin-right: 80%;
+    cursor: pointer;
+}
+
+.profile1{
+    width: 30px;
+    position: relative;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.search:hover,.profile1:hover{
+    transform: scale(1.5);
+}
+.item3{
+    width: 100vw;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(208, 204, 204) ;
+    margin-top: 5px;
+    position: sticky;
+    top: 10vh;
+    z-index: 99;
+    background-color: #FEF9F2;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap:50px;
+}
+
+nav ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(97, 95, 95);
+}
+
+nav ul li:hover{
+    text-decoration: underline;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+li svg{
+    color: rgb(97, 95, 95);
+
+}
+
+.item4{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    width: 100vw;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+}
+
+.item4 img{
+    width: 80vw;
+}
+
+.item4 span{
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: larger;
+    padding: 10px 25px;
+    background-color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+
+.item4 span:hover{
+    transform: translate(-50%, -50%) scale(1.2);
+}
+
+.container2 {
+    margin-top: 100px;
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 100px;
+    justify-items: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.box{
+    width: 100%;
+    display: grid;
+    cursor: pointer;
+}
+
+.box img{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    cursor: pointer;
+}
+
+.box img:hover{
+    transform: scale(1.05);
+}
+
+
+
+.box span{
+    background-color:rgb(255, 251, 234);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100%;
+    height: 10vh;
+    display: grid;
+    place-items: center; /* Centers the text */
+    align-self: end; /* Moves the span to the bottom */
+    text-align: center;
+    font-size: xx-large;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+    height: 40vh;
+    text-align: center;
+    padding-top: 10px;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+footer span{
+    text-decoration: underline;
+}
+footer p{
+    text-decoration: none;
+    padding-top: 20px;
+    font-size: medium;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (max-width:700px){
+    .container2 {
+        margin-top: 100px;
+        width: 80vw;
+        display: grid;
+        grid-template-columns: 1fr; 
+        gap: 100px;
+        justify-items: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+}
+
+
