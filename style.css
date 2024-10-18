@@ -58,14 +58,15 @@ body{
 
 .search{
     width: 18px;
-    margin-right: 80%;
+    position: relative;
+    right: 35%;
     cursor: pointer;
 }
 
 .profile1{
     width: 30px;
     position: relative;
-    margin-right: 50px;
+    left: 35%;
     cursor: pointer;
 }
 
